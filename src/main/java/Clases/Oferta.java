@@ -66,5 +66,16 @@ public class Oferta {
         this.fechaTermino = fechaTermino;
     }
     
+    public boolean agregarRequisito(int orden,String descripcion){
+        return true;
+    }
     
+    public Requisito[] getRequisitos(){
+        Requisito[] requi = new Requisito[0];
+        return requi;
+    }
+    
+    public boolean eliminarRequisito(int orden){
+        return true;
+    }
 }

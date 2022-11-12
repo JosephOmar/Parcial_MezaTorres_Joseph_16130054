@@ -16,6 +16,8 @@ public class Cliente {
     private String contacto;
     private String telefono;
     private String clave;
+    
+    private int indice;
 
     public Cliente(String RUC, String razonSocial, String email, String contacto, String telefono, String clave) {
         this.RUC = RUC;
@@ -74,5 +76,17 @@ public class Cliente {
         this.clave = clave;
     }
     
+    public boolean agregarOferta(Oferta oferta){
+        
+    }
+    
+    public boolean eliminarOferta(Oferta oferta){
+        return true;
+    }
+    
+    public Oferta[] getOfertas(){
+        Oferta[] oferta = new Oferta[0];
+        return oferta;
+    } 
     
 }

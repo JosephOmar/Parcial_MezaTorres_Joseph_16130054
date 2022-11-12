@@ -26,7 +26,7 @@ public class Rubro {
         this.nombre = nombre;
     }
 
-    public boolean isEstado() {
+    public boolean getEstado() {
         return estado;
     }
 
@@ -34,5 +34,21 @@ public class Rubro {
         this.estado = estado;
     }
     
+    public boolean habilitar(){
+        boolean estado = getEstado();
+        if(estado){
+            return true;
+        }else{
+            return false;
+        }
+    }
     
+    public boolean deshabilitar(){
+        boolean estado = getEstado();
+        if(estado){
+            return false;
+        }else{
+            return true;
+        }
+    }
 }

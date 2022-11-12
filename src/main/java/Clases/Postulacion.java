@@ -46,5 +46,4 @@ public class Postulacion {
         this.fechaAnulacion = fechaAnulacion;
     }
     
-    
 }

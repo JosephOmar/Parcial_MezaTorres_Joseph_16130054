@@ -44,5 +44,11 @@ public class Requisito {
         this.estado = estado;
     }
     
+    public boolean habilitar(){
+        return true;
+    }
     
+    public boolean deshabilitar(){
+        return true;
+    }
 }
